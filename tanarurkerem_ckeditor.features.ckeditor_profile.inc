@@ -28,7 +28,7 @@ function tanarurkerem_ckeditor_ckeditor_profile_defaults() {
         'uicolor_user' => 'default',
         'toolbar' => '[
     [\'Bold\',\'Italic\'],
-    [\'NumberedList\',\'BulletedList\',\'Blockquote\'],
+    [\'Blockquote\'],
     [\'Format\'],
     [\'Cut\',\'Copy\',\'Paste\',\'PasteText\',\'PasteFromWord\'],
     [\'Undo\',\'Redo\',\'Find\',\'Replace\',\'-\',\'SelectAll\',\'RemoveFormat\'],
