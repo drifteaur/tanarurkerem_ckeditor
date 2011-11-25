@@ -8,7 +8,7 @@ HOWTO USE
 
 ### Make a new Drupal installation with CKEditor feature:
 
-* `drush make https://raw.github.com/tanarurkerem/tanarurkerem_ckeditor/master/tanarurkerem_ckeditor.make [WEBDIR]`
+* `drush make https://raw.github.com/drifteaur/tanarurkerem_ckeditor/master/tanarurkerem_ckeditor.make [WEBDIR]`
 * Install Drupal (`drush si [YOUR OPTIONS]`)
 * Enable Features module (`drush en -y features`)
 * Enable Tanarurkerem CKEditor feature at admin/structure/features (`drush en -y tanarurkerem_ckeditor`)
@@ -27,5 +27,5 @@ HOWTO USE
 projects[tanarurkerem_ckeditor][type] = module
 projects[tanarurkerem_ckeditor][subdir] = features
 projects[tanarurkerem_ckeditor][download][type] = git 
-projects[tanarurkerem_ckeditor][download][url] = git://github.com/tanarurkerem/tanarurkerem_ckeditor.git  
+projects[tanarurkerem_ckeditor][download][url] = git://github.com/drifteaur/tanarurkerem_ckeditor.git  
 ```
